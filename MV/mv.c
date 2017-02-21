@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
 			byte = fgetc(pFOrigen);
 			fputc(byte,pFDestino);
 		}
-		//fclose(pFOrigen);
+		fclose(pFOrigen);
 		fclose(pFDestino);
 
 		// depues de copiar de bit a bit hay que borrar el origen
